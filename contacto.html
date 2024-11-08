@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="AbelMH">
+    <meta description="Página web sobre mi, permite conocerme mejor">
+    <title>Contacto - Mi Página Personal</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aficiones.html">Aficiones</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="mailto:uo283274@uniovi.es" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AbelMH. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
