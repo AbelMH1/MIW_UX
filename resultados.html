@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="AbelMH">
-    <meta description="Página web sobre mi afición por los videojuegos.">
-    <title>Videojuegos - Mis Aficiones</title>
+    <meta description="Página web con resultados sobre una búsqueda.">
+    <title>Resultados de Búsqueda</title>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <!-- JQuery Code -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Hotjar Tracking Code -->
     <script>
         (function (h, o, t, j, a, r) {
@@ -21,7 +23,7 @@
 </head>
 <body>
     <header>
-        <h1>Videojuegos</h1>
+        <h1>Resultados de Búsqueda</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -39,21 +41,12 @@
     </header>
 
     <main>
-        <section>
-            <h2>Mi Afición por los Videojuegos</h2>
-            <p>Los videojuegos son una de mis pasiones. Disfruto de la variedad de géneros y estilos de juego que existen, y cómo cada uno ofrece una experiencia única.</p>
-            <h3>Algunos de mis juegos favoritos</h3>
-            <ul>
-                <li><strong>Acción y Aventura:</strong> The Legend of Zelda, Uncharted</li>
-                <li><strong>RPG:</strong> Final Fantasy, The Witcher</li>
-                <li><strong>Plataformas:</strong> Super Mario, Ori and the Blind Forest</li>
-            </ul>
-            <p>Estos juegos me permiten relajarme y a la vez desafiar mis habilidades.</p>
+        <h2>Mostrando resultados para: <span id="termino-busqueda"></span></h2>
+        <section id="resultados-busqueda">
+            <!-- Aquí se mostrarán los resultados de búsqueda -->
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 AbelMH. Todos los derechos reservados.</p>
-    </footer>
+    <script src="js/resultados-buscador.js"></script>
 </body>
 </html>

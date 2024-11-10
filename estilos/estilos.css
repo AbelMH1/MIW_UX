@@ -21,15 +21,23 @@ body {
 header {
     background-color: #35424a;
     color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px 20px;
     margin-bottom: 20px;
 }
 
 header h1 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
+/* Contenedor del nav y del buscador */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos de la lista de navegación */
 nav ul {
     list-style: none;
     display: flex;
@@ -48,6 +56,34 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+/* Formulario de búsqueda alineado a la derecha */
+#formulario-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+#buscador {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    width: 200px;
+}
+
+#formulario-busqueda button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    
+}
+
+#formulario-busqueda button:hover {
+    background-color: #0056b3;
 }
 
 /* Contenido Principal */
@@ -164,9 +200,9 @@ form label {
     font-weight: bold;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
+section form input[type="text"],
+section form input[type="email"],
+section form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
@@ -198,6 +234,35 @@ form input[type="reset"] {
 
 form input[type="reset"]:hover {
     background-color: #999;
+}
+
+/* Estilo del contenedor de resultados */
+#resultados-busqueda {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Estilo de cada resultado */
+.resultado-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.resultado-item h3 a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.resultado-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.resultado-item p {
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.5;
 }
 
 /* Pie de Página */
