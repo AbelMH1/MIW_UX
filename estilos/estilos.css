@@ -34,14 +34,21 @@ header h1 {
 header nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav div {
+    flex-grow: 3;
 }
 
 /* Estilos de la lista de navegación */
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -62,6 +69,8 @@ nav ul li a:hover {
 #formulario-busqueda {
     display: flex;
     align-items: center;
+    justify-content: end;
+    gap: 5px;
 }
 
 #buscador {
@@ -69,17 +78,16 @@ nav ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 0.9rem;
-    width: 200px;
+    width: 100%;
+    max-width: 220px;
 }
 
 #formulario-busqueda button {
-    margin-left: 5px;
     padding: 8px 12px;
     border: none;
     background-color: #007BFF;
     color: #fff;
     border-radius: 4px;
-    
 }
 
 #formulario-busqueda button:hover {
