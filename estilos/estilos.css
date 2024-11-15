@@ -51,10 +51,6 @@ nav ul {
     flex-wrap: wrap;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -108,10 +104,11 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 10px;
 }
 
 .flex-container section {
-    width: 70%;
+    flex: 1 1 65%;
 }
 
 /* Secciones */
@@ -129,13 +126,17 @@ section ul {
 
 /* Estilos para el aside */
 .flex-container aside {
-    width: 25%;
-    min-width: 100px;
+    flex: 1 1 30%;
+    min-width: 125px;
+    display: flex;
+    height: fit-content;
+    justify-content: end;
 }
 
 aside img {
     width: 100%;
     border-radius: 5px;
+    max-width: 500px;
 }
 
 /* Diseño de la cuadrícula para las aficiones */
