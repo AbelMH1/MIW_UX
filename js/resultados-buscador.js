@@ -55,7 +55,7 @@ $(document).ready(function() {
 
                 // Si estamos en el último archivo y no hubo resultados, mostrar el mensaje
                 if (index === paginas.length - 1 && resultadosEncontrados === 0) {
-                    resultadosDiv.html("<p>No se encontraron resultados para tu búsqueda.</p>");
+                    resultadosDiv.append("<p>No se encontraron resultados para tu búsqueda.</p>");
                 }
             },
             error: function() {
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
                 // Si estamos en el último archivo y no hubo resultados, mostrar el mensaje
                 if (index === paginas.length - 1 && resultadosEncontrados === 0) {
-                    resultadosDiv.html("<p>No se encontraron resultados para tu búsqueda.</p>");
+                    resultadosDiv.append("<p>No se encontraron resultados para tu búsqueda.</p>");
                 }
             }
         });

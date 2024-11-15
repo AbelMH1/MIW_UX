@@ -102,7 +102,7 @@ main {
     flex-direction: row;
 }
 
-.flex-container > article {
+.flex-container section {
     width: 70%;
 }
 
@@ -120,7 +120,7 @@ section ul {
 }
 
 /* Estilos para el aside */
-.flex-container > aside {
+.flex-container aside {
     width: 25%;
     min-width: 100px;
 }
@@ -190,7 +190,7 @@ article {
 }
 
 article h3 {
-    color: #e8491d;
+    color: #016306;
 }
 
 /* Formulario de Contacto */
@@ -234,12 +234,6 @@ form input[type="reset"] {
 
 form input[type="reset"]:hover {
     background-color: #999;
-}
-
-/* Estilo del contenedor de resultados */
-#resultados-busqueda {
-    margin-top: 10px;
-    padding: 10px;
 }
 
 /* Estilo de cada resultado */
