@@ -213,6 +213,7 @@ section form input[type="text"],
 section form input[type="email"],
 section form textarea {
     width: 100%;
+    max-width: 500px;
     padding: 8px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
