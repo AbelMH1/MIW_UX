@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="AbelMH">
-    <meta name="description" content="Página web sobre mi afición por la programación">
-    <title>Programación - Mis Aficiones</title>
+    <meta name="description" content="Página web sobre mí, permite conocerme mejor">
+    <title>Mapa Web - Mi Página Personal</title>
     <link rel="stylesheet" href="estilos/estilos.css">
     <!-- Hotjar Tracking Code -->
     <script>
@@ -19,9 +20,10 @@
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 </head>
+
 <body>
     <header>
-        <h1>Programación</h1>
+        <h1>Mapa Web</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -31,24 +33,35 @@
             </ul>
             <div>
                 <form id="formulario-busqueda" action="resultados.html" method="get">
-                    <input id="buscador" type="text" title="Buscador" name="query" placeholder="Buscar en el sitio..." required spellcheck="true">
+                    <input id="buscador" type="text" title="Buscador" name="query" placeholder="Buscar en el sitio..."
+                        required spellcheck="true">
                     <button type="submit">Buscar</button>
                 </form>
             </div>
         </nav>
     </header>
-
     <main>
         <section>
-            <h2>Mi Afición por la Programación</h2>
-            <p>La programación no solo es mi trabajo, sino también mi pasión. Me fascina resolver problemas y crear soluciones a través del código.</p>
-            <h3>Lenguajes y Tecnologías Favoritas</h3>
+            <h2>Menú Principal</h2>
             <ul>
-                <li><strong>Python:</strong> Mi lenguaje favorito para desarrollo web y proyectos de IA.</li>
-                <li><strong>JavaScript:</strong> Fundamental para desarrollo web y aplicaciones interactivas.</li>
-                <li><strong>C++:</strong> Para proyectos de alto rendimiento y aplicaciones científicas.</li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aficiones.html">Aficiones</a>
+                    <ul>
+                        <li><a href="videojuegos.html">Videojuegos</a></li>
+                        <li><a href="deportes.html">Deportes</a></li>
+                        <li><a href="programacion.html">Programación</a></li>
+                        <li><a href="viajes.html">Viajes</a></li>
+                    </ul>
+                </li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
-            <p>Siempre estoy buscando aprender y mejorar en mis habilidades de programación.</p>
+        </section>
+        <section>
+            <h2>Footer</h2>
+            <ul>
+                <li><a href="sitemap.html">Mapa Web</a></li>
+            </ul>
         </section>
     </main>
 
@@ -57,4 +70,5 @@
         <p>&copy; 2024 AbelMH. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
