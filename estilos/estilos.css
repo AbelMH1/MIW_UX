@@ -81,13 +81,15 @@ nav ul li a:hover {
 #formulario-busqueda button {
     padding: 8px 12px;
     border: none;
-    background-color: #007BFF;
-    color: #fff;
+    border: groove white 1px;
+    background-color: #0647e0;
+    color: white;
     border-radius: 4px;
 }
 
 #formulario-busqueda button:hover {
-    background-color: #0056b3;
+    background-color: #1499ff;
+    color: black;
 }
 
 /* Contenido Principal */
@@ -182,7 +184,7 @@ aside img {
     display: inline-block;
     margin: 15px 0;
     padding: 8px 16px;
-    background-color: #007BFF;
+    background-color: #0647e0;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -190,7 +192,8 @@ aside img {
 }
 
 .boton:hover {
-    background-color: #0056b3;
+    background-color: #0032a7;
+    color: white;
 }
 
 /* Artículos en Proyectos */
