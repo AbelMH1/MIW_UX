@@ -73,9 +73,9 @@ nav ul li a:hover {
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 100%;
-    max-width: 220px;
+    max-width: 300px;
 }
 
 #formulario-busqueda button {
@@ -85,6 +85,7 @@ nav ul li a:hover {
     background-color: #0647e0;
     color: white;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 #formulario-busqueda button:hover {
